@@ -1,0 +1,6 @@
+version: '3'
+services:
+  node-app:
+    image: 426991683772.dkr.ecr.us-east-2.amazonaws.com/node-app:latest
+    ports: 
+     - 4002:4002
